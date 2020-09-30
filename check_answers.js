@@ -31,7 +31,7 @@ var SubmitViewResults = () => {
         document.getElementById("q2").classList.add("wrong");
      }
 
-     if(question3.value == "miami") {
+     if(question3.value == "washington_dc") {
         points = points + 1;
         console.log(question3.value)
         document.getElementById("q3").style.border = "4px solid green";
